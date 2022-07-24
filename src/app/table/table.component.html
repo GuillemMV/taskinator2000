@@ -1,0 +1,22 @@
+<body>
+  <table border="2">
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Descripcion</th>
+        <th>Estado</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let task of Tasks">
+        <td>{{ task.id }}</td>
+        <td>{{ task.descripcion }}</td>
+        <td>{{ task.estado }} <input type="button" class="status-btn"></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <form class="add-task-form">
+    <input type="button" value="Nueva tarea"  class="add-task-btn" (click)=addTask()>
+  </form>
+</body>

@@ -1,0 +1,49 @@
+table{
+  width: 100%;
+  height: 100%;
+  max-width: 900px;
+  font-family: 'Source Code Pro', monospace;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  text-align: center;
+  background-color: silver;
+  border: 2px solid lightgrey;
+}
+
+tr:nth-child(even) {
+  background-color: #e9e9e9;
+}
+
+th{
+  color: white;
+  background-color: rgb(93, 100, 190);
+  padding: 10px;
+  border-collapse: collapse;
+  border: 2px solid lightgray;
+  font-size: 18px;
+}
+
+tbody{
+  font-size: 15px;
+}
+
+.status-btn{
+  background-color: grey;
+  display: inline-block;
+}
+
+.add-task-form{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 900px;
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.add-task-btn{
+  align-items: center;
+  font-family: 'Mononoki', monospace;
+}
